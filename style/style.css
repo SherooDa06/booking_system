@@ -1,0 +1,158 @@
+body
+{
+    background-color: beige;
+    font-family: sans-serif;
+}
+
+header
+{
+    background-color: maroon;
+    font-size: 32px;
+    color: rgb(255, 179, 93);
+    text-align: center;
+
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+
+footer
+{
+    background-color: maroon;
+    color: rgb(255, 179, 93);
+    text-align: center;
+    font-size: 24px;
+}
+
+#titleLink:link { color: rgb(255, 179, 93);}
+#titleLink:visited { color: rgb(255, 179, 93);}
+#titleLink:hover { color: rgb(255, 148, 25);}
+
+/* 
+    Styling forms 
+*/
+form
+{
+    font-size: 38px;    
+    font-weight: bold;  
+}
+
+input
+{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+select
+{
+    font-size: 24px;
+
+    width: 400px;
+    height: 50px;
+}
+
+option { font-size: 24px; }
+
+#registerButton
+{
+    width: 400px;
+    height: 200px;
+}
+
+#indexForm { padding-left: 30%; }
+#loginForm { text-align: center; }
+#conformationForm { padding-left: 25%; }
+#registerForm
+{
+    font-size: 32px;
+    padding-left: 30px;
+}
+
+.nameInput
+{
+    width: 300px;
+    height: 50px;
+}
+#emailInput
+{
+    width: 600px;
+    height: 50px;
+}
+
+.userEntryButton
+{ 
+    background-color: rgb(255, 179, 93) ;
+    color: rgb(255, 255, 255);
+
+    width: 400px;
+    height: 50px;
+}
+
+.radioButtons
+{
+    width: 30px;
+    height: 30px;
+}
+
+/*
+CSS Grid used to form desired left-right form of webpage content
+*/
+.indexContent
+{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.registerContent
+{
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.userDashboard
+{
+    font-size: 28px;
+
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+#accountDisplay
+{
+    padding-left: 20%;
+}
+
+#sessionOfferings
+{
+    padding-left: 10%;
+    padding-top: 2.5%;
+}
+
+.sessionOffering
+{
+    color: #ffffff;
+    font-size: 32px;
+    background-color: rgb(255, 162, 23);
+
+    padding-left: 5%;
+    padding-top: 1.25%;
+    padding-bottom: 1.25%;
+    margin-right: 5%;
+}
+
+.userForms
+{
+    margin-left: 10%;
+    margin-top: 2.5%;
+}
+
+#sessionTitle { font-weight: bold;}
+.informationText
+{
+    font-size: 64px;
+}
+
+#createSessionButton 
+{ 
+    margin-left: 30%; 
+    margin-top: 2.5%;
+}

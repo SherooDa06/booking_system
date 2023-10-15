@@ -1,0 +1,1 @@
+<input type="submit" name="finish" value="Complete" class="userEntryButton" formaction="dashboard.php"/>
